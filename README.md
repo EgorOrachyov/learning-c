@@ -4,14 +4,14 @@ A collection of tasks to learn C programming language and practice your skills
 
 ## Tasks
 
-| Task name                             | Description                                                                   |
-|:--------------------------------------|:------------------------------------------------------------------------------|
-[`1. strings`](./strings)               | Implement basic string manipulation utilities                                 |
-[`2. array`](./array)                   | Implement dynamically-sized heap-allocated array of values                    |
-[`3. linked list`](./linked_list)       | Implement dynamically-sized heap-allocated linked list of values              |
-[`4. priority queue`](./priority_queue) | Implement heap-based priority queue                                           |
-[`5. sorting`](./sorting)               | Implement various sorting algorithms and test their performance               |
-[`6. dictionaries`](./dictionaries)     | Implement list and hash-table based dictionaries and test their performance   |
+| Task name                                 | Description                                                                   |
+|:------------------------------------------|:------------------------------------------------------------------------------|
+| [`1. 📁 strings`](./strings)               | Implement basic string manipulation utilities                                 |
+| [`2. 📁 array`](./array)                   | Implement dynamically-sized heap-allocated array of values                    |
+| [`3. 📁 linked list`](./linked_list)       | Implement dynamically-sized heap-allocated linked list of values              |
+| [`4. 📁 priority queue`](./priority_queue) | Implement heap-based priority queue                                           |
+| [`5. 📁 sorting`](./sorting)               | Implement various sorting algorithms and test their performance               |
+| [`6. 📁 dictionaries`](./dictionaries)     | Implement list and hash-table based dictionaries and test their performance   |
 
 ## License
 
