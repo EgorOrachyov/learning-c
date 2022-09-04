@@ -7,7 +7,6 @@
 #ifndef LEARNING_C_STRINGS_H
 #define LEARNING_C_STRINGS_H
 
-
 /**
  * Get number of characters in the string excluding final null-terminator
  * @param string Null-terminated string

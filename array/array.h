@@ -43,6 +43,15 @@ void array_append(array_t *array, array_element_t element) {
 }
 
 /**
+ * Inserts element at specified index into array, moving existing elements after index to the right.
+ * @param array Array to insert element in.
+ * @param element Element to insert.
+ * @param index Index where to insert.
+ */
+void array_insert_at(array_t *array, array_element_t element, int index) {
+}
+
+/**
  * Removes element from array preserving order of elements.
  * @param array Array to remove element from
  * @param element_index Index of the element to remove
@@ -55,6 +64,13 @@ void array_remove(array_t *array, int element_index) {
  * @param array Array to clear.
  */
 void array_clear(array_t *array) {
+}
+
+/**
+ * Reverses all elements in the array.
+ * @param array Array to reverse elements in.
+ */
+void array_reverse(array_t *array) {
 }
 
 #endif//LEARNING_C_ARRAY_H

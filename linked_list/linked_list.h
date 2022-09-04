@@ -48,6 +48,16 @@ void list_append(list_t *list, list_element_t element) {
 }
 
 /**
+ * Insert element into list at index, preserving existing nodes.
+ * @param list List to insert element.
+ * @param element Element to insert.
+ * @param index Index at which new inserted element will be placed.
+ */
+void list_insert_at(list_t *list, list_element_t element, int index) {
+
+}
+
+/**
  * Removes element from list preserving order of elements.
  * @param list List to remove element from
  * @param element_index Index of the element to remove
@@ -60,6 +70,14 @@ void list_remove(list_t *list, int element_index) {
  * @param list List to clear.
  */
 void list_clear(list_t *list) {
+}
+
+/**
+ * Reverses all nodes in the list.
+ * @param list List to reverse nodes in.
+ */
+void list_reverse(list_t *list) {
+
 }
 
 #endif//LEARNING_C_LINKED_LIST_H

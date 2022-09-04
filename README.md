@@ -1,6 +1,27 @@
 # Learning C programming language
 
-A collection of tasks to learn C programming language and practice your skills
+A collection of tasks to learn C programming language and practice your skills.
+
+## How to use it?
+
+1. **Get**. Download or clone this repo using git to your local machine and init submodules.
+   ```shell
+   git clone https://github.com/EgorOrachyov/learning-c.git
+   cd learning-c
+   ```
+
+2. **Setup**. Import this repository sources as a CMake project inside your favorite IDE or use any code editor.
+
+3. **Build**. Build tutorial examples to validate your development environment.
+   ```shell
+   cmake . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+   cmake --build build --target all -j 4
+   ```
+
+4. **Solve**. Start from basic tasks, write missing code in declared interfaces, and make tests working correctly and as
+   it expected from functions description.
+
+5. **Experiment**. Modify code, add new functions, do whatever you want.
 
 ## Tasks
 
